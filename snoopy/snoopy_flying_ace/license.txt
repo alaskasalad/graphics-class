@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snoopy Flying Ace.
+* source:	https://sketchfab.com/3d-models/snoopy-flying-ace-a08fde6e48834a739feec834ba7c0026
+* author:	Dr. Heinz Doofenshmirtz (https://sketchfab.com/Dr._Heinz_Doofenshmirtz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snoopy Flying Ace." (https://sketchfab.com/3d-models/snoopy-flying-ace-a08fde6e48834a739feec834ba7c0026) by Dr. Heinz Doofenshmirtz (https://sketchfab.com/Dr._Heinz_Doofenshmirtz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
