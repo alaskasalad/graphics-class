@@ -103,7 +103,7 @@ pygame.init() # Initlizes its different modules. Display module is one of them.
 
 pygame.display.gl_set_attribute(pygame.GL_CONTEXT_PROFILE_MASK, pygame.GL_CONTEXT_PROFILE_CORE) 
 pygame.display.set_mode((width, height), flags= pygame.OPENGL | pygame.DOUBLEBUF | pygame.RESIZABLE)
-pygame.display.set_caption(title = "Assignment 08: Caitlin Box")
+pygame.display.set_caption(title = "Assignment 09: Caitlin Box")
 gl = moderngl.get_context() # Get Previously created context.
 gl.info["GL_VERSION"]
 
@@ -189,7 +189,7 @@ while running:
     
     ### Add render code below
     # Clear the display window with the specified R, G, B values using function ctx.clear(R, G, B)
-    gl.clear(0.5,0.5,0.0)
+    gl.clear(0.5,0.5,0.5)
     
     # Make one or more Render Calls to instruct the GPU to render by executing the shader program with the provided data.
     program["view"].write(viewMatrix)
