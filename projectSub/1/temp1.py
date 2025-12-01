@@ -98,14 +98,11 @@ program_model = gl.program(
 format = "3f 3f 2f"
 variables = ["position","normal", "uv"]
 
-### Use Assimp parser and and read a 3D model.
 model_file = "the_utah_teapot/scene.gltf" 
 model_obj = create3DAssimpObject(model_file, verbose=False, textureFlag = True, normalFlag = True)
 
 model_renderable = model_obj.getRenderables(gl, program_model, format, variables)
 scene = model_obj.scene
-
-#### Recursive Render for scenegraph
 
 def recursive_render(node, M):
     nodeTransform = glm.transpose(glm.mat4(node.transformation));
